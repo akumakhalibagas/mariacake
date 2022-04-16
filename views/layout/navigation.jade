@@ -1,0 +1,33 @@
+header.main-header
+    a(href='/').logo
+        span.logo-mini
+            <b>A</b> LT
+        span.logo-lg
+            <b>MARIA</b>
+    nav(role='navigation').navbar.navbar-static-top
+        a(href='#', role='button', data-toggle='offcanvas').sidebar-toggle.fa6.sidebar-mini
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        div.navbar-custom-menu
+            ul.nav.navbar-nav
+
+                    li.dropdown.user.user-menu
+                        a(href='#',data-toggle='dropdown').dropdown-toggle
+                            img(src='/adminlte/dist/img/avatar04.png',alt='UserImage').user-image
+                            span.hidden-xs
+                                | Maria Cake - MARIA
+                        ul.dropdown-menu
+                            li.user-header
+                                img(src='/adminlte/dist/img/avatar04.png',alt='UserImage').img-circle
+                                p
+                                    | Maria Cake - MARIA
+                                    small
+                                        | Sejak 2010
+                            
+                            li.user-footer
+                                
+                                .pull-right
+                                    a(href='/logout').btn.btn-default.btn-flat
+                                        | Sign out
